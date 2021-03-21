@@ -65,7 +65,7 @@ header ul li:hover ul { /* Show the dropNav when the mouse go on .drop class */
 header ul li:hover ul li {
 	float:none;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 480px) {
  header ul li.right, 
  header ul li {float: none;}
 }
@@ -140,7 +140,7 @@ nav a:hover {
     background-color: rgb(0,255,0);
     color: rgb(0,255,0);
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 480px) {
 	#aside{display: none;}
 	#contener{display: none;}
 	nav{display: none;}
