@@ -1,0 +1,291 @@
+h1,h4{
+	color:white;
+	text-align: center;
+	background-image: url(rain.gif);
+}
+header {
+	color:white;
+	background-image: url(rain.gif);
+	background-color: black;
+}
+
+*{
+	margin: 0px;
+	padding:0px;
+	background-color: black;
+}
+/****************************header menu*********************************/
+header li {
+	list-style:none !important;
+	color:black;
+	padding:8px;
+	font-size:15px;
+	text-decoration:none;
+}
+ 
+header ul {
+	background-color:black;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	float: right;
+}
+ 
+header ul li {
+	list-style: none;
+	line-height:44px;
+	float:left;
+	background-color:black;
+}
+ 
+header ul li a {
+	color:#FFF;
+	padding:10px;
+	font-size:20px;
+	text-decoration:none;
+}
+ 
+header li a:hover {
+	border-bottom:3px #FFF solid;
+	color: rgb(0,255,0);
+}
+header ul li ul { 
+	display:none; 
+} /* To hide the under menu */
+ 
+header ul li:hover ul { /* Show the dropNav when the mouse go on .drop class */
+	z-index:99999;
+	display:list-item !important;
+	position:absolute;
+	margin-top:5px;
+	margin-left:-10px;
+	color: rgb(0,255,0);
+}
+ 
+header ul li:hover ul li {
+	float:none;
+}
+@media all and (max-width: 600px) {
+ header ul li.right, 
+ header ul li {float: none;}
+}
+
+footer{
+	color:black;
+	background-color: black;
+	background-image: url(rain.gif);
+}
+
+
+.first{
+	color:rgb(0,255,0);
+	background-color: black;
+	text-align: center;
+	margin-left: 0px;
+    border: 1px solid black;
+    margin-bottom: 200px;
+}
+.first h2, .container h3{
+	color:white;
+}
+/*article main pages*/
+.col1,  .col2, .col3, .col4{
+	color:rgb(0,255,0);
+	background-color: black;
+	text-align: right;
+    border: 1px solid black;
+    column-count: 2
+}
+.col1 h3, .col2 h3, .col3 h3, .col4 h3{
+	color: white;
+}
+.col1 p, .col2 p, .col3 p, .col4 p{
+	margin-top: 100px
+}
+.img-first{
+	margin-bottom: 100px;
+}
+/*************************article main page****************************************/
+/*********************** Menu on the left on first page****************************/
+.contener{
+	color:rgb(0,255,0);
+	background-color: black;
+	border:1px solid rgb(0,255,0);
+	box-shadow: 1px 1px 3px 0 rgb(0,255,0);
+	float: right;
+}
+.contener h2{
+	color:rgb(0,255,0);
+	text-align: center;
+}
+.contener h3{
+	color:white;
+	text-align: center;
+}
+nav{
+	padding: 10px; 
+	position: fixed;
+	top:200px;
+	width: 300px;
+	text-align: center;
+}
+nav a {
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: rgb(0,255,0);
+    color: rgb(0,255,0);
+}
+@media all and (max-width: 600px) {
+	#aside{display: none;}
+	#contener{display: none;}
+	nav{display: none;}
+}
+/**************************end of the menu*******************************/
+/*********************************footer menu*************************************/
+.pied {
+  	background-color:black;
+  	background-image: url(rain.gif);
+	padding:0;
+	margin:0;
+}
+.pied li {
+	list-style:none !important;
+	color:white;
+	padding:10px;
+	font-size:18px;
+	text-decoration:none;
+	display: inline;
+	background-color: transparent;
+}
+.pied a{
+	display: inline-block;
+	margin: 0 30px;
+	color:white;
+}
+.pied a:hover{
+	color: rgb(0,255,0);
+}
+/***********************end of the footer menu***************************/
+/*************************Product page*****************************/
+.iimac,  .iipad, .iiphone{
+	color:rgb(0,255,0);
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.iimac h2,  .iipad h2, .iiphone h2{
+	background-color: black;
+	color: white;
+}
+.tableproduct{
+	margin-top: 100px;
+	color:rgb(0,255,0);
+}
+/****************************Items*********************************/
+.macbookair, .macbookpro, .macmini, .ipad, .ipadair, .ipadpro, .iphone12pro, .iphone11, .iphonese{
+	color:rgb(0,255,0);
+	column-count: 2;
+}
+.macbookair h2, .macbookpro h2, .macmini h2,.ipad h2, .ipadair h2, .ipadpro h2, .iphone12pro h2, .iphone11 h2, .iphonese h2 {
+	color: white;
+	background-color: black;
+}
+.macbookair, .ipad, .iphone12pro{
+	margin-top: 100px;
+}
+/***************************End of Items**************************/
+/***************************Table******************************/
+table {
+	border: medium solid #000000;
+	width: 50%;
+}
+td, th {
+	border: thin solid #6495ed;
+	width: 50%;
+}
+/*************************End of Table*****************************/
+/*************************About us*******************************/
+.us {
+	color:rgb(0,255,0);
+	text-align: center;
+	margin-top: 100px;
+}
+.horaire{
+	color:rgb(0,255,0);
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 35%;
+}
+.us h2, .horaire h2{
+	color: white;
+	background-color: black;
+}
+/*************************End of About us*****************************/
+/*************************Contact us*******************************/
+/*contact us form*/
+ .cssform p{
+	color: white;
+	width: 300px;
+	clear: left;
+	margin: 0;
+	padding: 5px 0 8px 0;
+	padding-left: 155px; /*width of left column containing the label elements*/
+	border-top: 1px black;
+	height: 1%;
+	background-color: black;
+	background-image: url(rain.gif);
+}
+
+.cssform label{
+	font-weight: bold;
+	float: left;
+	margin-left: -155px; /*width of left column*/
+	width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+	background-color: black;
+	background-image: url(rain.gif);
+}
+
+.cssform input[type=&quot;text&quot;]{ /*width of text boxes. IE6 does not understand this attribute*/
+	width: 180px;
+	background-color: black;
+	color: rgb(0,255,0);
+}
+
+.cssform textarea{
+	width: 250px;
+	height: 150px;
+	background-color: black;
+	color: rgb(0,255,0);
+}
+.cssform{
+	margin-top: 200px;
+	margin-bottom: 250px;
+	margin-left: 40%;
+}
+/*.threepxfix class below:
+Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+*/
+
+* html .threepxfix{
+	margin-left: 3px;
+	background-color: black;
+	color: rgb(0,255,0);
+} 
+.user, .emailaddress, .send, .reset{
+	color: rgb(0,255,0)
+}
+/***************************end of the contact us form************************/
+/*************************Legal Notice*******************************/
+.notice p{
+	color: rgb(0,255,0);
+	text-align:center;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+/***************************end of Legal notice************************/
