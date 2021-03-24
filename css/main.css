@@ -90,7 +90,7 @@
   *, h1, h2, h3, h4, h5, h6{
 	  margin: 0;
 	  padding: 0;
-	  font-family: 'Roboto', sans-serif;
+	  font-family: 'Permanent Marker', cursive;
   }
   /* utilitary classes */
   .mainBG {
@@ -110,15 +110,45 @@
 	  margin-left: 1em;
   }
   .deroulant{
+	  list-style: none!important;
+	  padding: 10px;
+	  font-size: 10px;
+	  margin: auto 2em;
+	  text-decoration: none;
 	  display: flex;
 	  justify-content: right;
-	  margin: auto 1em;
+  }
+  nav ul {
+	  background-color: #F5CDA7;
+	  padding: 0;
+	  margin: 0;
+  }
+  nav ul li{
+	  list-style:none;
+	  line-height: 30px;
+	  float: right;
+	  background-color: #F5CDA7;
+  }
+  nav ul li a{
+	  padding:10px;
+	  font-size: 20px;
+	  text-decoration: none;
+  }
+  nav ul li:hover ul {
+	  z-index: 99999;
+	  display: list-item !important;
+	  position: absolute;
+	  margin-top: 5px;
+	  margin-left: 10px;
+  }
+  nav ul li:hover ul li{
+	  float:none;
   }
   .computerOnly{
 	  display:flex;
 	  justify-content: right;
 	  margin: auto 1em;
-	  display:none;
+	  display: none;
   }
   .deroulant:hover{
 	  color: #F5CDA7;
@@ -137,6 +167,11 @@
 	position: absolute;
 	left: 55%;
 	top: 20%;
+}
+
+.apple img{
+	width: 10vw;
+	height: 10vw;
 }
 /*======================= End of Header=========================*/
 /*============================Main==============================*/
@@ -170,7 +205,7 @@
 @media screen and (min-width: 768px){
 	.container{
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 	}
 }
@@ -178,7 +213,7 @@
 @media screem and (min-width: 1024px){
 	.container{
 		display: flex;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
 	}
 }
