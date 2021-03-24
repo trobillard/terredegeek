@@ -17,6 +17,8 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -37,56 +39,87 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+
 <nav class=secondBG>
-    <ul>
-      <li><a class="mainBG btn" href="terrede.html">Homepage</a></li>
-       <li><a class="mainBG btn" href="product.html">Product</a></li>
-        <li><a class="mainBG btn" href="aboutus.html">About Us</a></li>
-        <li><a class="mainBG btn" href="contactus.html">Contact Us</a></li>
-    </ul>
-    <aside>
-      <a class="mainBG btn" href="">Basket</a>
-    </aside>
-  </nav>
+  <div class= "logo">
+    <h1>Terre De Geek</h1>
+  </div>
+  <ul>
+    <li class="deroulant"><a href="#">Menu</a>
+      <ul class="computerOnly">
+        <li><a href="terrede.html">Homepage</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   <header class=mainBG>
-    <div>
-      <section>
-        <h1>Terre de Geek</h1>
-        <p>Our company is an official Apple reseler. Our main office is based in Evreux and we have different branches in the whole Normandy</p>
-      </section>
+    <div class="monthlyProd">
+      <h2>Product of the month</h2>
+      <p>MAC MINI<br>The Apple M1 chip takes Mac mini,<br> the most versatile,<br> do-it-all Mac desktop,<br> to a whole new level.<br> </p>
+    </div>
+    <div class= miniPict>
+      <a href="item1.html"><img src="minimini.jpg"></a>
     </div>
   </header>
 <main class="container">
-<div>
-  <article>
-    <a href="product.html"><img src="whichapple.jpg" class ="apple"></a>
-    <p>	If you're looking for an Apple laptop, you've come to the right place.<br> Here we'll look at the different models available to help you decide which is best for you.<br>
-    The first thing to decide is which of the main device types to go for<br> - you can then start looking at the different configurations.</p>
-  </article>
-</div>
-  <div class="aside">
-    <nav>
-      <h2>Product of the month</h2><br>
-      <h3>MAC MINI</h3>
-      <a href="item1.html"><img src="minimini.jpg"></a>
-      <p>The Apple M1 chip takes Mac mini,<br> the most versatile,<br> do-it-all Mac desktop,<br> to a whole new level.<br>
-      The price is 899.00 USD</p><br>
-      <h3>iPhone 12 Pro</h3>
-      <a href="item3.html"><img src="iphone12promini.jpg"></a>
-      <p>Get infinitely spectacular<br> possibilities with the<br> iPhone 12 Pro Max.<br>
-      The price is 1199.00 USD</p>
-    </nav>
+  <div class="photoIphone">
+    <a href="item3.html"><img src=iphone13.jpg></a>
   </div>
-  </main class = "container">
+  <div class="iphoneText">
+    <h2>iPhone</h2>
+    <p>Get infinitely spectacular<br> possibilities with the<br> iPhone.</p>
+  </div>
+  <div class="photoIpad">
+    <a href="item2.html"><img src=ipad.jpg></a>
+  </div>
+  <div class="ipadText">
+    <h2>iPad</h2>
+    <p>Get infinitely spectacular<br> possibilities with the<br> iPhone pad.</p>
+  </div>
+  <div class="photoImac">
+    <a href="item1.html"><img src=macbook.jpg></a>
+  </div>
+  <div class="macText">
+    <h2>iMac</h2>
+    <p>Get infinitely spectacular<br> possibilities with the<br> iMac.</p>
+  </div>
+</main>
+<article class=secondBG>
+  <div class="apple">
+   <a href="aboutus.html"><img src=whichapple.jpg></a>
+  </div>
+</article>
 <footer class=mainBG>
-  <section>
-  <ul class="pied">
-    <li class=secondBG><a href="terrede.html">HomePage</a></li>
-    <li class=secondBG><a href="mentionlegal.html">Legal Notice</a></li>
-    <li class=secondBG><a href="product.html">Product</a></li>
-    <li class=secondBG><a href="aboutus.html">About us</a></li>
-    <li class=secondBG><a href="contactus.html">Contact us</a></li>
-  </ul>
+  <div class="abtUs">
+    <h3>About Us</h3>
+    <p>Terre de geek shop blablablablabla<br> bla blablabla</p>
+  </div>
+  <div class="expUs">
+    <h3>Explore Us</h3>
+    <ul>
+      <li><a href="terrede.html">Home</a></li>
+      <li><a href="aboutus.html">About us</a></li>
+      <li><a href="product.html">Product</a></li>
+    </ul>
+  </div>
+  <div class="supT">
+    <h3>Support</h3>
+    <ul>
+      <li><a href="#">After sales</a></li>
+      <li><a href="contactus.html">Contact us</a></li>
+    </ul>
+  </div>
+  <div class="copy">
+    <ul>
+      <li><a href="#">Private Policy</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+    </ul>
+    <a href="#">Copyright @2021</a>
+  </div>
   </section>
 </footer>
 </body>
