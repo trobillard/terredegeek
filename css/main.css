@@ -92,6 +92,9 @@
 	  padding: 0;
 	  font-family: 'Permanent Marker', cursive;
   }
+  *{
+	font-family: 'Roboto', sans-serif;
+  }
   /* utilitary classes */
   .mainBG {
 	background-color: #F5CDA7;
@@ -121,18 +124,21 @@
 	  position: relative;
 	  width: 30%;
 	  background-color: #FAA381;
-	  
+	  padding: 5%;
+	  font-family: 'Permanent Marker', cursive;
   }
   nav ul li{
 	  list-style:none;
 	  float: left;
 	  line-height: 30px;
 	  background-color: #F5CDA7;
+	  font-family: 'Permanent Marker', cursive;
   }
   nav ul li a{
 	padding:10px;
 	  font-size: 20px;
 	  text-decoration: none;
+	  font-family: 'Permanent Marker', cursive;
   }
   nav ul li:hover ul {
 	  z-index: 99999;
@@ -156,13 +162,20 @@
   /*need to show the menu*/
 /*=======================End of Menu=====================*/
 /*=======================Header==========================*/
-.monthlyProd {
+#monthlyProd {
 	margin-left: 1em;
 	margin-right: 1em;
+	justify-content: center;
+	text-align: center;
+}
+.apple{
+	display: flex;
+	align-items: center;
 }
 .apple img{
-	width: 10vw;
-	height: 10vw;
+	width: 40%;
+	height: 40%;
+	margin-left:30%;
 }
 /*======================= End of Header=========================*/
 /*============================Main==============================*/
@@ -187,6 +200,7 @@
 .abtUs, .expUs, .supT{
 	margin-bottom: 3vh;
 	margin-left: 1em;
+	width: 20%;
 }
 .copy{
 	margin-bottom:1vh;
@@ -198,6 +212,15 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		margin-left: 3em;
+		margin-right: 3em;
+	}
+	.contener{
+		display: flex;
+		justify-content: space-between;
+	}
+	.deroulant{
+		background-color: green;
 	}
 }
 /*========================Desktop code==========================*/
@@ -206,6 +229,18 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		margin-left: 3em;
+		margin-right: 3em;
+		position: relative;
+	}
+	
+	.contener{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 2em;
+	}
+	.deroulant{
+		background-color: green;
 	}
 }
 
