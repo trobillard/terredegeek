@@ -208,42 +208,99 @@
 }
 /*========================Touchpads code=======================*/
 @media screen and (min-width: 768px){
+
 	.container{
-		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-left: 3em;
-		margin-right: 3em;
 	}
 	.contener{
 		display: flex;
 		justify-content: space-between;
-	}
-	.deroulant{
-		background-color: green;
 	}
 }
 /*========================Desktop code==========================*/
 @media screem and (min-width: 1024px){
-	.container{
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		margin-left: 3em;
-		margin-right: 3em;
-		position: relative;
-	}
-	
 	.contener{
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
 		margin-top: 2em;
 	}
-	.deroulant{
-		background-color: green;
-	}
 }
-
+/*======================================================================================
+Mac
+=======================================================================================*/
+.macpage{
+	display: flex;
+	flex-direction: column;
+}
+#pro, #air, #mini{
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em 1em 0 1em;
+}
+#pro h2, #air h2, #mini h2{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+.info{
+	display: flex;
+	text-align: left;
+	padding-left: 15%;
+	margin: 3em;
+}
+.more{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding-left: 15%;
+	margin: 0;
+	margin-bottom: 4em;
+}
+.more h3{
+	background-color:rgb(211, 70, 169);
+	width: 30%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+/*======================================================================================
+iPhone
+=======================================================================================*/
+.iPhonePage{
+	display: flex;
+	flex-direction: column;
+}
+#pro, #i12, #xr{
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em 1em 0 1em;
+}
+#pro h2, #i12 h2, #xr h2{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+/*======================================================================================
+iPad
+=======================================================================================*/
+.iPadPage{
+	display: flex;
+	flex-direction: column;
+}
+#pro, #air, #iMini{
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em 1em 0 1em;
+}
+#pro h2, #air h2, #iMini h2{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
   /* ==========================================================================
 	 Helper classes
 	 ========================================================================== */
