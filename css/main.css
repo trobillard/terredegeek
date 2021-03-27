@@ -239,8 +239,8 @@ Mac
 	margin: 1em 1em 1em 1em
 }
 #pro img, #air img, #mini img{
-	width: 100%;
-	height: 100%;
+	width: 40%;
+	height: 40%;
 }
 #pro, #air, #mini{
 	text-align: justify;
@@ -284,8 +284,8 @@ iPhone
 	margin: 1em 1em 1em 1em
 }
 #pro img, #i12 img, #xr img{
-	width: 100%;
-	height: 100%;
+	width: 40%;
+	height: 40%;
 }
 #pro, #i12, #xr{
 	text-align: justify;
@@ -310,8 +310,8 @@ iPad
 	margin: 1em 1em 1em 1em
 }
 #pro img, #air img, #iMini img{
-	width: 100%;
-	height: 100%;
+	width: 40%;
+	height: 40%;
 }
 #pro, #air, #iMini{
 	text-align: justify;
