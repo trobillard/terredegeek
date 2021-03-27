@@ -334,11 +334,42 @@ Mention legal
 /*======================================================================================
 Mention legal
 =======================================================================================*/
-#formulaires {
+.formulaires {
 	margin: 2em 2em 2em 2em;
 	padding: 1em 1em 1em 1em;
 	border: solid 1px rgb(211, 70, 169);
 }
+/*======================================================================================
+About us
+=======================================================================================*/
+#abotUs{
+	margin: 2em 2em 2em 2em;
+	padding: 1em 1em 1em 1em;
+	border: solid 1px rgb(211, 70, 169);
+}
+#bUs {
+	display: flex;
+	flex-direction: column;
+}
+#pictwork img{
+	width: 80%;
+	height: 80%;
+}
+#timetable {
+	display: flex;
+	flex-direction: column;
+}
+#vdoSh img{
+	width: 80%;
+	height: 80%;
+}
+table{
+	border-collapse: collapse;
+}
+tr, td{
+	border:1px solid #F5CDA7;
+}
+
 
   /* ==========================================================================
 	 Helper classes

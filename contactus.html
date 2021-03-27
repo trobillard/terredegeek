@@ -1,45 +1,89 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-	<link rel="stylesheet" type="text/css" href="styleterrede.css">
-	<title>Contact Us</title>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
-<header>
-		<a href="terrede.html"><img src="tdg.jpg "></a>
-		<h1>Contact Us</h1>
-		<div id="menu">
-			<ul>
-				<li><a href="terrede.html">Homepage</a></li>
- 				<li><a href="product.html">Product</a>
- 					<ul>
-      					<li><a href="item1.html">MAC</a></li>
-      					<li><a href="item2.html">IPAD</a></li>
-      					<li><a href="item3.html">IPHONE</a></li>
-    				</ul>
- 				</li>
-  				<li><a href="aboutus.html">About Us</a></li>
-  				<li><a href="contactus.html">Contact Us</a></li>
-			</ul>
-		</div>
-	</header>
+
+  <!-- Add your site or application content here -->
+  <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+<nav class=secondBG>
+  <div class= "logo">
+    <h1>Terre De Geek</h1>
+  </div>
+  <ul>
+    <li class="deroulant"><a href="#">Menu</a>
+      <ul class="computerOnly">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="item1.html">iMac</a></li>
+        <li><a href="item3.html">iPad</a></li>
+        <li><a href="item2.html">iPhone</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<main class=formulaires>
+	<section class="formsh">
+    <h2>Contact Us</h2>
+  	</section>
+	<div class="forms">
 	<form id="myform" class="cssform" action="">
-
-		<p><label for="user">Nom :</label>
-		<input type="text" class="user" value="" /></p>
-
-		<p><label for="emailaddress">Email :</label>
-		<input type="text" class="emailaddress" value="" /></p>
+		<label for="surname">Surname :</label><br/>
+		<input type="text" name="surname" id="surname" placeholder="Michel"size="20" maxlength="40" minlength="2" autofocus required/><br/>
+		<label for="Firstname">Firstname :</label><br/>
+		<input type="text" name="firstname" id="firstname" placeholder="Michel"size="20" maxlength="40" minlength="2" required/><br/>
+		<label for="phonenumber">Phone number :</label><br/>
+      	<input type="tel" name="phonenumber" id="phonenumber" placeholder="+33783918826"size="15" maxlength="15" minlength="10"/><br/>
+      	<label for="email">E-mail :</label><br/>
+      	<input type="email" name="email" id="email" placeholder="michelmichel@gmail.com"size="30" maxlength="40" minlength="2" required/><br/>
 
 		<p><label for="comments">Message :</label>
 		<textarea id="comments" rows="5" cols="25"></textarea></p>
 
-		<p><label for="comments">Sexe :</label>
-		Homme :<input type="radio" name="sex" />
-		Femme :<input type="radio" name="sex" /></p>
+		<p><label for="comments">Prefer to be contacted by  :</label>
+		Phone :<input type="radio" name="contact" />
+		E-mail :<input type="radio" name="contact" /></p>
 
 
-		<p><label for="terms">Conditions g&eacute;n&eacute;rales accept&eacute;es</label>
+		<p><label for="terms">Agree with the terms and conditions</label>
 		<input type="checkbox" id="terms" class="boxes" /></p>
 
 		<p><div style="margin-left: 150px">
@@ -47,15 +91,41 @@
 		<input type="reset" class="reset" value="Reset" />
 		</div></p>
 	</form>
-	<footer>
-		<a href="terrede.html"><img src="tdg.jpg"></a>>
-		<ul class="pied">
-			<li><a href="terrede.html">HomePage</a></li>
-			<li><a href="mentionlegal.html">Legal Notice</a></li>
-			<li><a href="product.html">Product</a></li>
-			<li><a href="aboutus.html">About us</a></li>
-			<li><a href="contactus.html">Contact us</a></li>
-		</ul>
-	</footer>
-</body>
-</html>
+</div>
+</main>
+	<article class=secondBG>
+		<div class="apple">
+		 <a href="aboutus.html"><img src=img/whichapple.jpg></a>
+		</div>
+	  </article>
+	  <footer class=mainBG>
+		<article class =contener>
+		  <div class="abtUs">
+			<h3>About Us</h3>
+			<p>Terre de geek shop blablablablabla<br> bla blablabla</p>
+		  </div>
+		  <div class="expUs">
+			<h3>Explore Us</h3>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="aboutus.html">About us</a></li>
+			</ul>
+		  </div>
+		  <div class="supT">
+			<h3>Support</h3>
+			<ul>
+			  <li><a href="services.html">Services</a></li>
+			  <li><a href="contactus.html">Contact us</a></li>
+			</ul>
+		  </div>
+		</article>
+		<div class="copy">
+			<ul>
+			  <li><a href="#">Private Policy</a></li>
+			  <li><a href="mentionlegal.html">Terms & Conditions</a></li>
+			</ul>
+			<a href="#">Copyright @2021</a>
+		</div>
+	  </footer>
+	  </body>
+	  </html>
