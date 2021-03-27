@@ -104,22 +104,21 @@
   .secondBG {
 	background-color: #FAA381;
   }
+  .thirdBG{
+	background-image: url("logotdg.jpg");
+	height:20vh;
+	background-position:50% 65%;
+  }
   ul {
 	  list-style: none;
   }
   ion-icon{
 	font-size: 40px;
-	color: rgb(211, 70, 169);
+	color: black;
   }
   /*========================Menu========================*/
   nav {
 	  display: flex;
-  }
-  .logo{
-	  color: rgb(211, 70, 169);
-	  padding: 5px;
-	  font-size: 10px;
-	  width:60%
   }
   nav ul{
 	  justify-content: right;
@@ -130,7 +129,7 @@
 	  text-decoration: none;
 	  position: relative;
 	  width: 30%;
-	  background-color: #FAA381;
+	  background-color:transparent;
 	  padding: 5%;
 	  font-family: 'Permanent Marker', cursive;
   }
