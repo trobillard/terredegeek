@@ -464,6 +464,13 @@ Login
 		display: flex;
 		justify-content: space-between;
 	}
+	.thirdBG{
+		background-image: url("logotdg.jpg");
+		height:20vh;
+		width: 100%;
+		display: flex;
+		position: relative;
+	  }
 }
 /*========================Desktop code==========================*/
 @media screem and (min-width: 1024px){
