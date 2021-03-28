@@ -471,6 +471,30 @@ Login
 		display: flex;
 		position: relative;
 	  }
+	  #monthlyProd {
+		margin-top: 0;
+	}
+	.macpage{
+		margin-top: 0;
+	}
+	.iPhonePage{
+		margin-top: 0;
+	}
+	.iPadPage{
+		margin-top: 0;
+	}
+	#notice {
+		margin-top: 0;
+	}
+	.formulaires {
+		margin-top: 0;
+	}
+	#abotUs{
+		margin-top: 0;
+	}
+	.box{
+		margin-top: 0;
+	}
 }
 /*========================Desktop code==========================*/
 @media screem and (min-width: 1024px){
