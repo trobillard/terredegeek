@@ -97,12 +97,12 @@
   }
   /* utilitary classes */
   .mainBG {
-	background-color: #F5CDA7;
+	background-color: #F2A300;
 	color:black;
   }
 
   .secondBG {
-	background-color: #FAA381;
+	background-color: #F6FFF8;
   }
   .thirdBG{
 	background-image: url("logotdg.jpg");
@@ -142,7 +142,7 @@
 	  list-style:none;
 	  float: left;
 	  line-height: 30px;
-	  background-color: #F5CDA7;
+	  background-color: #F2A300;
 	  font-family: 'Permanent Marker', cursive;
 	  color:black
   }
@@ -152,6 +152,9 @@
 	  text-decoration: none;
 	  font-family: 'Permanent Marker', cursive;
 	  color: black;
+  }
+  nav ul li a:hover {
+	  color:#A4C3B2
   }
   nav ul li:hover ul {
 	  z-index: 99999;
@@ -170,7 +173,7 @@
 	  display: none;
   }
   .deroulant:hover{
-	  color: #F5CDA7;
+	  color: #F2A300;
   }
   .search {
 	  margin-left: 70%;
@@ -247,7 +250,7 @@ Mac
 	margin-top: 130px;
 }
 #macBookPro, #macBookAir, #macMini {
-	border:solid 2px #F5CDA7;
+	border:solid 2px #F2A300;
 	margin: 1em 1em 1em 1em
 }
 #Pro img, #Air img, #Mini img{
@@ -286,7 +289,7 @@ Mac
 }
 .info ion-icon, .more ion-icon{
 	font-size: 20px;
-	color: #FAA381;
+	color: #F2A300;
 }
 /*======================================================================================
 iPhone
@@ -297,7 +300,7 @@ iPhone
 	margin-top: 130px;
 }
 #iPhone11Pro, #iPhone12, #iPhoneXr {
-	border:solid 2px #F5CDA7;
+	border:solid 2px #F2A300;
 	margin: 1em 1em 1em 1em
 }
 #pro img, #i12 img, #xr img{
@@ -324,7 +327,7 @@ iPad
 	margin-top: 130px;
 }
 #iPad11Pro, #iPadAir, #iPadMini {
-	border:solid 2px #F5CDA7;
+	border:solid 2px #F2A300;
 	margin: 1em 1em 1em 1em
 }
 #pro img, #air img, #iMini img{
@@ -399,7 +402,7 @@ table{
 	border-collapse: collapse;
 }
 tr, td{
-	border:1px solid #F5CDA7;
+	border:1px solid #F2A300;
 }
 /*======================================================================================
 Login
@@ -429,7 +432,7 @@ Login
 }
 .box input[type="text"]:focus, .box input[type="password"]:focus{
 	width: 280px;
-	border-color:#F5CDA7;
+	border-color:#F2A300;
 }
 .box input[type="submit"]{
 	border: 0;
@@ -437,7 +440,7 @@ Login
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 2px solid #FAA381;
+	border: 2px solid #6A8D73;
 	padding: 14px 10px;
 	width: 200px;
 	outline: none;
@@ -446,7 +449,7 @@ Login
 	cursor: pointer;
 }
 .box input[type = "submit"]:hover{
-	background: #F5CDA7;
+	background: #CCE3DE;
 }
 /*========================Touchpads code=======================*/
 @media screen and (min-width: 768px ){
