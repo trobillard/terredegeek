@@ -183,7 +183,7 @@
 	margin-right: 1em;
 	justify-content: center;
 	text-align: center;
-	margin-top: 130px;
+	margin-top: 20vh;
 }
 .apple{
 	display: flex;
@@ -237,37 +237,7 @@
 .abtUs ion-icon{
 	font-size: 20px;
 }
-/*========================Touchpads code=======================*/
-@media screen and (min-width: 768px ){
 
-	.container, .product{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-	}
-	#mac{
-		display: flex;
-		float: right;
-	}
-	.contener{
-		display: flex;
-		justify-content: space-between;
-	}
-}
-/*========================Desktop code==========================*/
-@media screem and (min-width: 1024px){
-	.container, .product{
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
-	}
-	.contener{
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		margin-top: 2em;
-	}
-}
 /*======================================================================================
 Mac
 =======================================================================================*/
@@ -478,7 +448,37 @@ Login
 .box input[type = "submit"]:hover{
 	background: #F5CDA7;
 }
+/*========================Touchpads code=======================*/
+@media screen and (min-width: 768px ){
 
+	.container, .product{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	#mac{
+		display: flex;
+		float: right;
+	}
+	.contener{
+		display: flex;
+		justify-content: space-between;
+	}
+}
+/*========================Desktop code==========================*/
+@media screem and (min-width: 1024px){
+	.container, .product{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.contener{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 2em;
+	}
+}
 
   /* ==========================================================================
 	 Helper classes
