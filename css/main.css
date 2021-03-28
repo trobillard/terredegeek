@@ -250,18 +250,18 @@ Mac
 	border:solid 2px #F5CDA7;
 	margin: 1em 1em 1em 1em
 }
-#pro img, #air img, #mini img{
+#Pro img, #Air img, #Mini img{
 	width: 40%;
 	height: 40%;
 }
-#pro, #air, #mini{
+#Pro, #Air, #Mini{
 	text-align: justify;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 1em 1em 0 1em;
 }
-#pro h2, #air h2, #mini h2{
+#Pro h2, #Air h2, #Mini h2{
 	margin-bottom: 2em;
 	margin-top: 1em;
 }
@@ -301,8 +301,8 @@ iPhone
 	margin: 1em 1em 1em 1em
 }
 #pro img, #i12 img, #xr img{
-	width: 30%;
-	height: 30%;
+	width: 20%;
+	height: 20%;
 }
 #pro, #i12, #xr{
 	text-align: justify;
@@ -328,8 +328,8 @@ iPad
 	margin: 1em 1em 1em 1em
 }
 #pro img, #air img, #iMini img{
-	width: 30%;
-	height: 30%;
+	width: 20%;
+	height: 20%;
 }
 #pro, #air, #iMini{
 	text-align: justify;
@@ -355,7 +355,7 @@ Mention legal
 =======================================================================================*/
 .formulaires {
 	margin: 2em 2em 2em 2em;
-	padding: 1em 1em 1em 1em;
+	padding: 1em 1em 1em 1em ;
 	border: solid 1px rgb(211, 70, 169);
 	margin-top: 150px;
 }
@@ -409,8 +409,8 @@ Login
 	padding: 40px;
 	text-align: center;
 	background: white;
-	margin: 1em 1em 1em 1em;
-	padding: 1em 1em 1em 1em;
+	margin: 2em 2em 2em 1.8em;
+	padding: 1em 0.5em 1em 0.5em;
 	border: solid 1px rgb(211, 70, 169);
 	margin-top: 150px;
 }
@@ -475,25 +475,25 @@ Login
 		margin-top: 0;
 	}
 	.macpage{
-		margin-top: 0;
+		margin-top: 1em;
 	}
 	.iPhonePage{
-		margin-top: 0;
+		margin-top: 1em;
 	}
 	.iPadPage{
-		margin-top: 0;
+		margin-top: 1em;
 	}
 	#notice {
-		margin-top: 0;
+		margin-top: 1em;
 	}
 	.formulaires {
-		margin-top: 0;
+		margin: 2% 30% 2% 30%;
 	}
 	#abotUs{
-		margin-top: 0;
+		margin: 2% 30% 2% 30%;
 	}
 	.box{
-		margin-top: 0;
+		margin: 2% 40% 2% 40%;
 	}
 }
 /*========================Desktop code==========================*/
