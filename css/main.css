@@ -108,6 +108,10 @@
 	background-image: url("logotdg.jpg");
 	height:20vh;
 	background-position:50% 65%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
   }
   ul {
 	  list-style: none;
@@ -168,6 +172,9 @@
   .deroulant:hover{
 	  color: #F5CDA7;
   }
+  .search {
+	  margin-left: 70%;
+  }
   /*need to show the menu*/
 /*=======================End of Menu=====================*/
 /*=======================Header==========================*/
@@ -176,18 +183,30 @@
 	margin-right: 1em;
 	justify-content: center;
 	text-align: center;
+	margin-top: 130px;
 }
 .apple{
 	display: flex;
 	align-items: center;
 }
-.apple img{
-	width: 40%;
-	height: 40%;
+.facetdg img{
+	width: 20%;
+	height: 20%;
 	margin-left:30%;
 }
 /*======================= End of Header=========================*/
 /*============================Main==============================*/
+.container, .product{
+	width: 100%;
+	height:auto;
+}
+
+#iPhone, #iPad, #iMac{
+	margin: 1em;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
 .photoIphone, .iphoneText, .photoIpad, .ipadText, .photoImac, .macText{
 	display: flex;
 	justify-content: center;
@@ -209,18 +228,26 @@
 .abtUs, .expUs, .supT{
 	margin-bottom: 3vh;
 	margin-left: 1em;
-	width: 20%;
+	width: 35%;
 }
 .copy{
 	margin-bottom:1vh;
 	text-align: center;
 }
+.abtUs ion-icon{
+	font-size: 20px;
+}
 /*========================Touchpads code=======================*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px ){
 
-	.container{
-		justify-content: space-between;
-		align-items: center;
+	.container, .product{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	#mac{
+		display: flex;
+		float: right;
 	}
 	.contener{
 		display: flex;
@@ -229,9 +256,14 @@
 }
 /*========================Desktop code==========================*/
 @media screem and (min-width: 1024px){
+	.container, .product{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
 	.contener{
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		align-items: center;
 		margin-top: 2em;
 	}
@@ -242,6 +274,7 @@ Mac
 .macpage{
 	display: flex;
 	flex-direction: column;
+	margin-top: 130px;
 }
 #macBookPro, #macBookAir, #macMini {
 	border:solid 2px #F5CDA7;
@@ -291,14 +324,15 @@ iPhone
 .iPhonePage{
 	display: flex;
 	flex-direction: column;
+	margin-top: 130px;
 }
 #iPhone11Pro, #iPhone12, #iPhoneXr {
 	border:solid 2px #F5CDA7;
 	margin: 1em 1em 1em 1em
 }
 #pro img, #i12 img, #xr img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: 30%;
 }
 #pro, #i12, #xr{
 	text-align: justify;
@@ -317,14 +351,15 @@ iPad
 .iPadPage{
 	display: flex;
 	flex-direction: column;
+	margin-top: 130px;
 }
 #iPad11Pro, #iPadAir, #iPadMini {
 	border:solid 2px #F5CDA7;
 	margin: 1em 1em 1em 1em
 }
 #pro img, #air img, #iMini img{
-	width: 40%;
-	height: 40%;
+	width: 30%;
+	height: 30%;
 }
 #pro, #air, #iMini{
 	text-align: justify;
@@ -343,6 +378,7 @@ Mention legal
 #notice {
 	text-align:justify;
 	margin: 1em 1em 1em 1em;
+	margin-top: 150px;
 }
 /*======================================================================================
 Mention legal
@@ -351,6 +387,7 @@ Mention legal
 	margin: 2em 2em 2em 2em;
 	padding: 1em 1em 1em 1em;
 	border: solid 1px rgb(211, 70, 169);
+	margin-top: 150px;
 }
 /*======================================================================================
 About us
@@ -359,6 +396,7 @@ About us
 	margin: 2em 2em 2em 2em;
 	padding: 1em 1em 1em 1em;
 	border: solid 1px rgb(211, 70, 169);
+	margin-top: 150px;
 }
 #bUs {
 	display: flex;
@@ -404,6 +442,7 @@ Login
 	margin: 1em 1em 1em 1em;
 	padding: 1em 1em 1em 1em;
 	border: solid 1px rgb(211, 70, 169);
+	margin-top: 150px;
 }
 .box input[type="text"], .box input[type="password"]{
 	border: 0;
